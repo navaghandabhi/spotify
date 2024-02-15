@@ -1,7 +1,7 @@
 import { AppRegistry, useColorScheme } from 'react-native';
 import App from './src/screens/App';
 import { name as appName } from './app.json';
-import { PlaybackService } from './src/Data/Services/PlayBackService'
+import { PlaybackService} from './src/Data/Services/PlayBackService'
 import TrackPlayer from 'react-native-track-player';
 import { PaperProvider } from 'react-native-paper';
 import { darkTheme, lightTheme } from './src/Data/Theme/Theme'
@@ -20,7 +20,7 @@ function Main() {
         try {
             const isDark = await AsyncStorage.getItem('isDark');
             setIsDarkTheme(isDark === 'true' ? true : isDark === 'false' ? false : colorScheme == 'light' ? false : true)
-            console.log("isDarkTheme", isDarkTheme);
+            
         } catch (error) {
             log("ERROR", error.message)
         }
