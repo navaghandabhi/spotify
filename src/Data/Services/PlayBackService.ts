@@ -18,11 +18,11 @@ export const setUpPlayer = async () => {
     let setUp = false;
     try {
         await TrackPlayer.getActiveTrack();
-        console.log("Player Is Set");
         setUp = true;
-    } catch(error) {
+    } catch (error) {
         await TrackPlayer.setupPlayer()
-        console.log("ERROR ",error.message);
+        await TrackPlayer.setQueue(myMusicList)
+        console.log("ERROR ", error.message);
         setUp = true;
     } finally {
         return setUp;
