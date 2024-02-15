@@ -1,5 +1,7 @@
 <div style="display:flex;">
     <img src="https://github.com/navaghandabhi/spotify/assets/142008642/700cfef5-55cc-4847-9801-47c5855dca41" alt="Screenshot 1" style="width:200px; margin-right:40px;">
+    <div style="width:40px;">
+    </div>
     <img src="https://github.com/navaghandabhi/spotify/assets/142008642/0e0d18cf-d485-4a4e-8701-87f611978ad4" alt="Screenshot 2" style="width:200px; margin-right:40px;">
 </div>
 
