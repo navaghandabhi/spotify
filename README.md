@@ -1,7 +1,12 @@
-<div style="display:flex;">
-    <img src="https://github.com/navaghandabhi/spotify/assets/142008642/700cfef5-55cc-4847-9801-47c5855dca41" alt="Screenshot 1" style="width:200px; margin-right:40px;">
-    <img src="https://github.com/navaghandabhi/spotify/assets/142008642/0e0d18cf-d485-4a4e-8701-87f611978ad4" alt="Screenshot 2" style="width:200px; margin-right:40px;">
-</div>
+
+<table width="100%">
+  <tbody>
+    <tr>
+      <td width="1%"><img src="https://github.com/navaghandabhi/spotify/assets/142008642/700cfef5-55cc-4847-9801-47c5855dca41" alt="Screenshot 1" style="width:200px; margin-right:40px;"></td>
+      <td width="1%"><img src="https://github.com/navaghandabhi/spotify/assets/142008642/0e0d18cf-d485-4a4e-8701-87f611978ad4" alt="Screenshot 2" style="width:200px; margin-right:40px;"></td>
+    </tr>
+  </tbody>
+</table>
 
 
 This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
